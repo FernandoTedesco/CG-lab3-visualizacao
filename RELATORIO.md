@@ -6,9 +6,8 @@
 
 ## Identificação
 
-- **Nome**: <mark>`<preencher>`</mark>
-- **Cartão UFRGS:** <mark>`<preencher>`</mark>
-
+- **Nome**: Fernando Tedesco
+- **Cartão UFRGS:** 00591001
 ## Dados utilizados
 
 > [!IMPORTANT]
@@ -17,11 +16,9 @@
 > - Se houver mais de um conjunto de dados, liste todos separadamente.
 > - Para cada conjunto de dados, inclua também uma **descrição curta** explicando os dados.
 
-1. **Dataset 1**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
-2. **Dataset 2**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
-3. ...
+1. **Dataset 1**: https://github.com/owid/energy-data
+    * **Descrição curta**: Dataset de  fontes de energia da matriz elétrica mundial, filtrado apenas para mostrar a matriz brasileira. Dataset compilado pela "Our World in Data".
+
 
 ## Código-fonte da visualização
 
@@ -29,36 +26,20 @@
 >
 > - Indique abaixo onde está, dentro deste repositório, o código-fonte usado para gerar a visualização.
 
-- **Arquivo principal**: <mark>`<preencher>`</mark>
-- **Arquivos complementares (se houver)**: <mark>`<preencher>`</mark>
+- **Arquivo principal**: plot.py
 
 ## Imagem da visualização gerada
 
-> [!IMPORTANT]
->
-> - Insira aqui uma imagem da visualização criada por você. Troque `imagem-da-visualizacao.png` pelo caminho correto do arquivo no repositório. 
-> - Se você criou alguma visualização interativa, então descreva aqui como acessá-la. Por exemplo, se for uma página HTML, coloque o link, ou se for uma visualização 3D, descreva como compilar e executar o código. 
-
-<mark>`<preencher abaixo>`</mark>
-
-![Visualização resultante](imagem-da-visualizacao.png)
+![Visualização resultante](vis-matriz-eletrica-br.png)
 
 ## Descrição da visualização
+Gráfico de área empilhada onde o eixo X corresponde ao ano e eixo Y a participação, em %, da geração de energia. Cada cor = uma fonte.
+As anotações apenas servem para destacar a conclusão.
+### Legenda 
+Participação em % das principais fontes de energia da matriz elétrica brasileira.
 
-### Legenda (*caption*)
-
-> [!IMPORTANT]
->
-> - Escreva um texto curto explicando como interpretar a visualização. Descreva os elementos visuais, eixos, cores, símbolos ou interações relevantes.
-> - Este texto seria a legenda (*caption*) que acompanharia a figura em uma publicação, por exemplo.
-
-<mark>`<preencher>`</mark>
 
 ### Conclusão demonstrada pela visualização
 
-> [!IMPORTANT]
->
-> - Escreva uma conclusão curta sobre os dados com base na visualização.
-> - Explique qual insight, padrão ou tendência pode ser observado.
-
-<mark>`<preencher>`</mark>
+A participação das hidrelétricas caiu de ~87% para ~55%, mas foi compensada pelo crescimento da geração de energia eólica e solar, que estavam
+extremamente marginalizadas/inexistentes até por volta de 2012. Isso significa que a queda de uma fonte de energia limpa e renovável (hidrelétrica) não foi compensada por usinas termoelétricas de petróleo e carvão, e sim da ascensão da matriz solar e eólica no Brasil.
